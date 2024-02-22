@@ -1,0 +1,121 @@
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "texts image"
+        "button image";
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.texts {
+    grid-area: texts;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+.cv-btn {
+    grid-area: button;
+}
+
+.fullImg {
+    grid-area: image;
+    width: 400px;
+}
+
+.circleImg {
+    display: none;
+}
+
+.texts p {
+    font-size: 20px;
+}
+
+.texts h1,
+h2 {
+    margin-top: 10px;
+}
+
+.texts h1 span {
+    color: aqua;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.texts .para {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+}
+
+.cv-btn .dnld {
+    background-color: aqua;
+    color: rgb(54, 54, 54);
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cv-btn .dnld:hover {
+    background-color: rgb(0, 213, 213);
+    transition: all 0.4s ease;
+}
+
+
+@media (max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fullImg {
+        display: none;
+    }
+
+    .circleImg {
+        display: flex;
+        width: 130px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .texts{
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .texts p{
+        font-size: 18px;
+    }
+
+    .texts h1{
+        font-size: 20px;
+    }
+
+    .texts h2{
+        font-size: 20px;
+    }
+
+    .texts .para{
+        text-align: center;
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .cv-btn .dnld{
+        height: 40px;
+        width: 100px;
+    }
+    
+}
+

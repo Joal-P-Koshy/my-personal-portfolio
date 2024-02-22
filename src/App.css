@@ -1,0 +1,18 @@
+hr {
+    width: 15%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 2px;
+    border: none;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+@media (max-width:600px){
+    hr{
+        margin-top: 5px;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}

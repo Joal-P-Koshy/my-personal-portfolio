@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(19, 19, 19);
+  color: antiquewhite;
+  font-family: 'Acme', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Croissant One', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Young Serif', serif;
+}
+

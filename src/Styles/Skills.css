@@ -1,0 +1,164 @@
+.sec-head p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skillImg img {
+    width: 400px;
+    margin-left: -150px;
+}
+
+.prog-bar {
+    width: 300px;
+}
+
+.color-bar {
+    height: 10px;
+    background-color: aqua;
+}
+
+.back-bar {
+    height: 10px;
+    background-color: black;
+}
+.pb-html, .pb-css, .pb-js {
+    margin-bottom: 10px;
+}
+/* //////////////////////////////////// */
+.pb-html .skill-percent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pb-html .back-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.pb-html .color-bar {
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: -10px ;
+}
+/* ////////////////////////////////// */
+.pb-css .skill-percent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pb-css .back-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.pb-css .color-bar {
+    width: 75%;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: -10px ;
+}
+/* ///////////////////////////////////////// */
+.pb-js .skill-percent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pb-js .back-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.pb-js .color-bar {
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: -10px ;
+}
+/* //////////////////////////////////////// */
+.pb-react .skill-percent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pb-react .back-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.pb-react .color-bar {
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: -10px ;
+}
+
+@media(max-width:600px){
+
+    .sec-head p{
+        font-size: 20px;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+    }
+
+    .skillImg img {
+        width: 200px;
+        margin: 0;
+        margin-left: -40px;
+    }
+
+    .prog-bar {
+        width: 150px;
+        margin-left: -30px;
+    }
+
+    .skill-percent {
+        font-size: 10px;
+    }
+
+    .pb-html .color-bar {
+        height: 5px;
+        margin-top: -5px;
+    }
+    .pb-css .color-bar {
+        height: 5px;
+    }
+    .pb-js .color-bar {
+        height: 5px;
+    }
+    .pb-react .color-bar {
+        height: 5px;
+    }
+
+    .pb-html .back-bar {
+        height: 5px;
+    }
+    .pb-css .back-bar {
+        height: 5px;
+    }
+    .pb-js .back-bar {
+        height: 5px;
+    }
+    .pb-react .back-bar {
+        height: 5px;
+    }
+}

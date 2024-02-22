@@ -1,0 +1,43 @@
+    .contact-icons{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+a{
+    color: white;
+}
+
+.whatsapp:hover {
+    background: radial-gradient(green , white);
+    border-radius: 20%;
+}
+.insta:hover {
+    
+    background: radial-gradient(rgb(255, 0, 191) , rgb(27, 11, 255));
+    border-radius: 20%;
+}
+.linkedin:hover {
+    
+    background: radial-gradient(rgb(0, 98, 255) , white);
+    border-radius: 20%;
+}
+.git:hover {
+    
+    background: radial-gradient(rgb(0, 86, 0) , white);
+    border-radius: 20%;
+}
+.mail:hover {
+    
+    background: radial-gradient(rgb(255, 0, 0) , white);
+    border-radius: 20%;
+}
+
+@media(max-width:600px){
+    .contact-icons{
+        font-size: 20px;
+    }
+    
+}
