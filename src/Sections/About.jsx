@@ -5,7 +5,7 @@ import "../Styles/About.css"
 function About() {
   return (
     <>
-      <section className="about">
+      <section className="about" id='about'>
         <div className="sec-head" data-aos='fade-up' data-aos-duration="1000">
           <p>About Me</p>
         </div>

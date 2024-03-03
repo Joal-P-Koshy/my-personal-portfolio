@@ -8,16 +8,16 @@ function Home() {
 
     return (
         <>
-            <section className='home'>
+            <section className='home' id='home'>
                 <div className="container">
                     <div className="texts">
                         <p data-aos='fade-right' data-aos-duration="400">Hey there</p>
-                        <h1 data-aos='fade-right' data-aos-duration="800">I'm <span>Joal P Koshy</span></h1>
-                        <h2 data-aos='fade-right' data-aos-duration="1200">Web Developer</h2>
+                        <h2 data-aos='fade-right' data-aos-duration="800">I'm <span id='my-name'>Joal P Koshy</span></h2>
+                        <h3 data-aos='fade-right' data-aos-duration="1200">MEARN Stack Developer</h3>
                         <p className='para' data-aos='fade-right' data-aos-duration="1400">As a web developer, I am dedicated to crafting elegant and efficient digital solutions that seamlessly merge creativity with functionality, propelling user experiences to new heights.</p>
                         <div className="cv-btn" data-aos='fade-right' data-aos-duration="1600">
                             <a href={resume} download='resume'>
-                                <button className='dnld'>Download Resume</button>
+                                <button id='resume-btn'>Download Resume</button>
                             </a>
                         </div>
                     </div>

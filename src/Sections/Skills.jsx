@@ -1,54 +1,35 @@
 import React from 'react'
 import "../Styles/Skills.css"
-import skillImg from '../assets/skill.png'
+import { TiHtml5 } from "react-icons/ti";
+import { IoLogoCss3 } from "react-icons/io5";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { FaAngular } from "react-icons/fa";
+import { FaNode } from "react-icons/fa6";
+import { FaBootstrap } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 
 
 function Skills() {
   return (
     <>
-    <section className="skills">
         <div className="sec-head" data-aos = 'fade-up' data-aos-duration="1000">
             <p>Skills</p>
         </div>
         <hr data-aos = 'zoom-in' data-aos-duration="2000"/>
-        <div className="wrapper">
-            <div className="skillImg" data-aos = 'zoom-in-up'>
-                <img src={skillImg} alt="boy with laptop" />
-            </div>
-            <div className="prog-bar" data-aos = 'zoom-in-left'>
-                <div className="pb-html">
-                    <div className="skill-percent">
-                        <p>HTML</p>
-                        <p>90%</p>
-                    </div>
-                    <div className="back-bar"></div>
-                    <div className="color-bar"></div>
-                </div>
-                <div className="pb-css">
-                    <div className="skill-percent">
-                        <p>CSS</p>
-                        <p>80%</p>
-                    </div>
-                    <div className="back-bar"></div>
-                    <div className="color-bar"></div>
-                </div>
-                <div className="pb-js">
-                    <div className="skill-percent">
-                        <p>JavaScript</p>
-                        <p>70%</p>
-                    </div>
-                    <div className="back-bar"></div>
-                    <div className="color-bar"></div>
-                </div>
-                <div className="pb-react">
-                    <div className="skill-percent">
-                        <p>React</p>
-                        <p>70%</p>
-                    </div>
-                    <div className="back-bar"></div>
-                    <div className="color-bar"></div>
-                </div>
-            </div>
+
+    <section className="sec-skill">
+        <div className="skill-wrap">
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="1000"><TiHtml5 /> </div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="1000"><IoLogoCss3 /></div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="1000"><IoLogoJavascript /></div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="2000"><FaReact/></div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="2000"><FaAngular/></div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="2000"><FaNode/></div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="3000"><SiMongodb/></div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="3000"><SiPostman/></div>
+            <div className="skill" data-aos = 'fade-up' data-aos-duration="3000"><FaBootstrap/></div>
         </div>
     </section>
     </>

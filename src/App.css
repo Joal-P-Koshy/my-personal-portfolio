@@ -6,7 +6,7 @@ hr {
     height: 2px;
     border: none;
     border-radius: 50%;
-    background-color: aqua;
+    background: linear-gradient(0deg, #1f006f 0%, #1175ac 38%, #00fff3 100%);
 }
 
 @media (max-width:600px){

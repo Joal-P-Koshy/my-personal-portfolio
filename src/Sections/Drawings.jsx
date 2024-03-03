@@ -13,7 +13,7 @@ import bramastra from '../assets/digitalArt/bramastra.jpg'
 function Drawings() {
     return (
         <>
-            <section className="drawing">
+            <section className="drawing" id='drawing'>
                 <div className="sec-head" data-aos = 'fade-up' data-aos-duration="1000">
                     <p>Digital Art</p>
                 </div>

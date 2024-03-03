@@ -7,13 +7,16 @@ import Projects from './Sections/Projects'
 import Contact from './Sections/Contact'
 import Drawings from './Sections/Drawings'
 import Footer from './Sections/Footer'
+import NavHead from './Sections/NavHead'
+import AboutEdu from './Sections/AboutEdu'
 
 function Portfolio() {
   return (
     <>
-                <Header />
+        {/* <NavHead/> */}
+                {/* <Header /> */}
                 <Home />
-                <About />
+                <AboutEdu/>
                 <Skills />
                 <Projects />
                 <Drawings />

@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 function Projects() {
     return (
         <>
-            <section className="project">
+            <section className="project" id='project'>
                 <div className="sec-head" data-aos = 'fade-up' data-aos-duration="1000">
                     <p>Projects</p>
                 </div>
@@ -25,14 +25,13 @@ function Projects() {
                         </div>
                         <div className="">
                             <p className="prjt-name">Media Player</p>
-                            {/* <p className="description text-secondary">Created using React & json server for backend</p> */}
                         </div>
                         <div className="icons">
                             <Link to={"https://github.com/Joal-P-Koshy/-Media-Player-front-end.git"} target='_blank'>
-                            <button className="icon">GitHub<i class="fa-brands fa-github"></i></button>
+                            <button className="prj-icon">GitHub<i class="fa-brands fa-github"></i></button>
                             </Link>
                             <Link to={"https://media-player-front-end-rosy.vercel.app"} target='_blank'>
-                            <button className="icon">Visit<i class="fa-solid fa-link"></i></button>
+                            <button className="prj-icon">Visit<i class="fa-solid fa-link"></i></button>
                             </Link>
                         </div>
                     </div>
@@ -43,14 +42,13 @@ function Projects() {
                         </div>
                         <div className="">
                             <p className="prjt-name">Todo List</p>
-                            {/* <p className="description text-secondary">Created using React & json server for backend</p> */}
                         </div>
                         <div className="icons">
                             <Link to={"https://github.com/Joal-P-Koshy/todo-list.git"} target='_blank'>
-                            <button className="icon">GitHub<i class="fa-brands fa-github"></i></button>
+                            <button className="prj-icon">GitHub<i class="fa-brands fa-github"></i></button>
                             </Link>
                             <Link to={"https://todo-list-mu-dun.vercel.app"} target='_blank'>
-                            <button className="icon">Visit<i class="fa-solid fa-link"></i></button>
+                            <button className="prj-icon">Visit<i class="fa-solid fa-link"></i></button>
                             </Link>
                         </div>
                     </div>
@@ -61,14 +59,13 @@ function Projects() {
                         </div>
                         <div className="">
                             <p className="prjt-name">E Kart</p>
-                            {/* <p className="description text-secondary">Created using React & json server for backend</p> */}
                         </div>
                         <div className="icons">
                             <Link to={"https://github.com/Joal-P-Koshy/E-kart.git"} target='_blank'>
-                            <button className="icon">GitHub<i class="fa-brands fa-github"></i></button>
+                            <button className="prj-icon">GitHub<i class="fa-brands fa-github"></i></button>
                             </Link>
                             <Link to={"https://e-kart-chi.vercel.app"} target='_blank'>
-                            <button className="icon">Visit<i class="fa-solid fa-link"></i></button>
+                            <button className="prj-icon">Visit<i class="fa-solid fa-link"></i></button>
                             </Link>
                         </div>
                     </div>
@@ -79,14 +76,13 @@ function Projects() {
                         </div>
                         <div className="">
                             <p className="prjt-name">Restaurant</p>
-                            {/* <p className="description text-secondary">Created using React & json server for backend</p> */}
                         </div>
                         <div className="icons">
                             <Link to={"https://github.com/Joal-P-Koshy/Restaurant.git"} target='_blank'>
-                            <button className="icon">GitHub<i class="fa-brands fa-github"></i></button>
+                            <button className="prj-icon">GitHub<i class="fa-brands fa-github"></i></button>
                             </Link>
                             <Link to={"https://restaurant-red-two.vercel.app"} target='_blank'>
-                            <button className="icon">Visit<i class="fa-solid fa-link"></i></button>
+                            <button className="prj-icon">Visit<i class="fa-solid fa-link"></i></button>
                             </Link>
                         </div>
                     </div>
@@ -96,14 +92,13 @@ function Projects() {
                         </div>
                         <div className="">
                             <p className="prjt-name">Counter</p>
-                            {/* <p className="description text-secondary">Created using React & json server for backend</p> */}
                         </div>
                         <div className="icons">
                             <Link to={"https://github.com/Joal-P-Koshy/Counter.git"} target='_blank'>
-                            <button className="icon">GitHub<i class="fa-brands fa-github"></i></button>
+                            <button className="prj-icon">GitHub<i class="fa-brands fa-github"></i></button>
                             </Link>
                             <Link to={"https://counter-topaz-sigma.vercel.app"} target='_blank'>
-                            <button className="icon">Visit<i class="fa-solid fa-link"></i></button>
+                            <button className="prj-icon">Visit<i class="fa-solid fa-link"></i></button>
                             </Link>
                         </div>
                     </div>
@@ -113,14 +108,13 @@ function Projects() {
                         </div>
                         <div className="">
                             <p className="prjt-name">Simple Interest</p>
-                            {/* <p className="description text-secondary">Created using React & json server for backend</p> */}
                         </div>
                         <div className="icons">
                             <Link to={"https://github.com/Joal-P-Koshy/Simple_Interest.git"} target='_blank'>
-                            <button className="icon">GitHub<i class="fa-brands fa-github"></i></button>
+                            <button className="prj-icon">GitHub<i class="fa-brands fa-github"></i></button>
                             </Link>
                             <Link to={"https://simple-interest-brown.vercel.app"} target='_blank'>
-                            <button className="icon">Visit<i class="fa-solid fa-link"></i></button>
+                            <button className="prj-icon">Visit<i class="fa-solid fa-link"></i></button>
                             </Link>
                         </div>
                     </div>
