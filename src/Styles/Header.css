@@ -47,7 +47,8 @@
         display: flex;
         color: white;
         width: 2.5rem;
-        margin-left: 130px;
+        margin-left: 170px;
+        width: 30px;
     }
     .mobile{
         display: flex;
