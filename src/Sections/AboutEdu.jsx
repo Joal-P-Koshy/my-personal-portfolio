@@ -6,7 +6,7 @@ import 'react-vertical-timeline-component/style.min.css';
 function AboutEdu() {
     return (
         <>
-            <section className="abt-edu">
+            <section className="abt-edu" id='about-edu'>
                 <div className="sec-head" data-aos='fade-up' data-aos-duration="1000">
                     <p>About Me</p>
                 </div>

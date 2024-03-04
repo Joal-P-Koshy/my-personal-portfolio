@@ -1,8 +1,8 @@
-.ab-para{
-    text-align: justify;
+.ab-para p{
+    text-align: center;
+    padding: 20px 10%;
 }
 
 .ae-wrap{
     margin: 10%;
-
 }

@@ -51,7 +51,7 @@
 }
 
 .icons button:hover {
-  background: linear-gradient(0deg, #1f006f 0%, #1175ac 38%, #00fff3 100%);
+  background: linear-gradient(0deg, #1175ac 0%, #00fff3 100%);
   color: whitesmoke;
   border: none;
 }
