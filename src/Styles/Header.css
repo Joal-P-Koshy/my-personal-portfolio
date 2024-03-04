@@ -21,7 +21,7 @@
 
 .nav-links{
     display: flex;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .link{
     text-decoration: none;
@@ -37,7 +37,8 @@
 @media (max-width:600px){
 
     .logo{
-        font-size: 25px;
+        font-size: 20px;
+        margin-left: 20px;
     }
     .link{
         display: none;
@@ -46,7 +47,7 @@
         display: flex;
         color: white;
         width: 2.5rem;
-        margin-left: 160px;
+        margin-left: 130px;
     }
     .mobile{
         display: flex;
@@ -54,7 +55,7 @@
         row-gap: 30px;
         margin-top: 445px;
         margin-left: -200px;
-        background-color: black;
+        background-color: rgb(16, 16, 16);
         width: 100%;
         height: auto;
         padding: 50px;

@@ -9,7 +9,6 @@ function Header() {
     <>
       <nav className='sec-nav'>
         <Link to={'/'} className='logo'>Portfolio</Link>
-        <div className="navbar">
           <ul className="nav-links">
             <Link to='home' className='link' spy={true} smooth={true} offset={-80}>Home</Link>
             <Link to='about' className='link' smooth={true} offset={-80}>About</Link>
@@ -18,7 +17,6 @@ function Header() {
             <Link to='drawing' className='link' smooth={true} offset={-80}>Arts</Link>
             <Link to='contact' className='link' smooth={true} offset={-80}>Contact</Link>
           </ul>
-        </div>
           <img src={menuicon} alt="" className='bar' onClick={()=>setShowMenu(!showMenu)}/>
         <div className="mobile"  style={{display:showMenu?'flex':'none'}}>
           <Link to='home'  spy={true} smooth={true} offset={-80} onClick={()=>setShowMenu(false)}>Home</Link>

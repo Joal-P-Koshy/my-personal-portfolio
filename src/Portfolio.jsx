@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Sections/Header'
 import Home from './Sections/Home'
-import About from './Sections/About'
 import Skills from './Sections/Skills'
 import Projects from './Sections/Projects'
 import Contact from './Sections/Contact'
@@ -14,7 +13,7 @@ function Portfolio() {
   return (
     <>
         {/* <NavHead/> */}
-                {/* <Header /> */}
+                <Header />
                 <Home />
                 <AboutEdu/>
                 <Skills />
