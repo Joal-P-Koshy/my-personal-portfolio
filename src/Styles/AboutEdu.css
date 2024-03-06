@@ -6,3 +6,11 @@
 .ae-wrap{
     margin: 10%;
 }
+
+@media (max-width:600px){
+    .ab-para p{
+        padding: 20px 10%;
+        font-size: 13px;
+        text-align: justify;
+    }
+}
